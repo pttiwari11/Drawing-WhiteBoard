@@ -6,10 +6,10 @@
   "homepage": "https://pttiwar11.github.io/Drawing-WhiteBoard",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "npm run build && vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
